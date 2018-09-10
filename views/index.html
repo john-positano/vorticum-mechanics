@@ -1,0 +1,36 @@
+<html>
+  <head>
+
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <script src="/node_modules/angular/angular.min.js"></script>
+    <script src="/node_modules/three/build/three.min.js"></script>
+    <script src="/scripts/vendor/THREEOrbitControls.js"></script>
+    
+    <script src="/scripts/init.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid" ng-app="VorticumMechanics" style="height: 100%; min-height: 100%;">
+      <div class="row">
+        <div class="col-8">
+          <display-canvas></display-canvas>
+        </div>
+        <div class="col-4">
+
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- Services -->
+
+  <!-- Controllers -->
+  <script src="/scripts/controllers/displayCanvasController.js"></script>
+  <script src="/scripts/controllers/geometryController.js"></script>
+
+  <!-- Directives -->
+  <script src="/scripts/directives/displayCanvas.js"></script>
+  <script src="/scripts/directives/geometry.js"></script>
+</html>
